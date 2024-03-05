@@ -1,0 +1,35 @@
+body{
+    margin: 0; /*margen completo*/
+    font-family: Arial, Helvetica, sans-serif; /*Letra de fuente*/
+    background-color: black; /*Color de fondo*/
+    width: 100%; /*ancho*/
+    height: 100%;/*alto*/
+}
+
+.header{
+    text-align: center; /*texto alineado al centro*/
+    padding: 10px; /**/
+    width: 100%;/*ancho*/
+    background-color: aliceblue;/*color de fondo*/
+    position: fixed;/*position flexible a cambios*/
+    top: 0; /*espacio de arriba*/
+    font-size: 2vh;/*tamaño del encabezado*/
+}
+
+.content{
+    margin:0; /*margen de la imagen*/
+    align-items:baseline; /*alineada al centro*/
+    /* align-content: center;contenido dentro centrado */  
+}
+
+.content img{
+    max-width:100%;/*ocupa el espacio maximo del contenedor*/
+    margin-top: 90px; /* margen del encabezado hacia abajo */
+}
+
+.footer{
+    text-align: center; /* texto alineado al centro */
+    padding:10px ;/*espacio dentro del encabezado*/
+    background-color: aliceblue;/*color de fondo de un encabezado*/
+    bottom: 0;/*mueve elementos cuyo posicionamiento es distinto a static*/
+}
